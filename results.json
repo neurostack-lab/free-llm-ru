@@ -1,0 +1,1239 @@
+{
+ "ranking": [
+  {
+   "spec": "ovh::Qwen3.8-27B",
+   "name": "Qwen3.8 27B",
+   "where": "OVHcloud (без ключа)",
+   "score": 93.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 2.6,
+   "tok_s": 107.7,
+   "first_try": true
+  },
+  {
+   "spec": "google::gemini-3.5-flash-lite",
+   "name": "Gemini 3.5 Flash Lite",
+   "where": "Google AI Studio",
+   "score": 93.0,
+   "ru": 10,
+   "ru_scores": [
+    10,
+    9,
+    10
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.27,
+   "tok_s": 27.0,
+   "first_try": true
+  },
+  {
+   "spec": "beam",
+   "name": "Reflection Beam 501B",
+   "where": "Ollama Cloud",
+   "score": 92.0,
+   "ru": 8,
+   "ru_scores": [
+    9,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.44,
+   "tok_s": 312.2,
+   "first_try": true
+  },
+  {
+   "spec": "google::gemini-3.7-flash",
+   "name": "Gemini 3.7 Flash",
+   "where": "Google AI Studio",
+   "score": 89.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 8.54,
+   "tok_s": 10.2,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/zai-org/glm-5.3-flash",
+   "name": "GLM-5.3 Flash",
+   "where": "Cloudflare Workers AI",
+   "score": 89.0,
+   "ru": 10,
+   "ru_scores": [
+    10,
+    10,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 10.58,
+   "tok_s": 36.3,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Mistral-Small-3.2-24B-Instruct-2506",
+   "name": "Mistral Small 3.2 24B",
+   "where": "OVHcloud (без ключа)",
+   "score": 88.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.19,
+   "tok_s": 35.6,
+   "first_try": true
+  },
+  {
+   "spec": "groq::openai/gpt-oss-120b",
+   "name": "OpenAI gpt-oss-120b",
+   "where": "Groq",
+   "score": 88.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.79,
+   "tok_s": 349.3,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/deepseek-ai/deepseek-v4-flash-0731",
+   "name": "DeepSeek V4 Flash",
+   "where": "Cloudflare Workers AI",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.84,
+   "tok_s": 65.3,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::cohere/north-mini-code:free",
+   "name": "Cohere North Mini Code",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 4.05,
+   "tok_s": 85.5,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::liquid/lfm-2.5-2.6b:free",
+   "name": "Liquid LFM2.5 2.6B",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 4.27,
+   "tok_s": 216.6,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3.5-super-vl:free",
+   "name": "NVIDIA Nemotron 3.5 Super VL",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 5.62,
+   "tok_s": 104.9,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3-super-120b-a12b:free",
+   "name": "NVIDIA Nemotron 3 Super 120B",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 6.04,
+   "tok_s": 47.3,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::stepfun-ai/step-5-preview",
+   "name": "StepFun Step 5 Preview",
+   "where": "NVIDIA NIM",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 9.7,
+   "tok_s": 78.8,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Qwen3.5-397B-A17B",
+   "name": "Qwen3.5 397B",
+   "where": "OVHcloud (без ключа)",
+   "score": 85.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 14.76,
+   "tok_s": 195.1,
+   "first_try": false
+  },
+  {
+   "spec": "cf::@cf/google/gemma-4-26b-a4b-it",
+   "name": "Google Gemma 4 26B A4B",
+   "where": "Cloudflare Workers AI",
+   "score": 85.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 19.3,
+   "tok_s": 53.4,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/mistralai/mistral-small-3.1-24b-instruct",
+   "name": "Mistral Small 3.1 24B",
+   "where": "Cloudflare Workers AI",
+   "score": 84.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.3,
+   "tok_s": 34.8,
+   "first_try": false
+  },
+  {
+   "spec": "groq::openai/gpt-oss-20b",
+   "name": "OpenAI gpt-oss-20b",
+   "where": "Groq",
+   "score": 84.0,
+   "ru": 6,
+   "ru_scores": [
+    7,
+    5,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.49,
+   "tok_s": 576.5,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/meta/llama-4-scout-17b-16e-instruct",
+   "name": "Llama 4 Scout",
+   "where": "Cloudflare Workers AI",
+   "score": 81.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 2.06,
+   "tok_s": 16.4,
+   "first_try": false
+  },
+  {
+   "spec": "kilo::dots-studio/dots-3-note-preview:free",
+   "name": "Dots3-Note Preview",
+   "where": "Kilo / OpenRouter",
+   "score": 81.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.06,
+   "tok_s": 67.8,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::meta/muse-glimmer-30b",
+   "name": "Meta Muse Glimmer 30B",
+   "where": "NVIDIA NIM",
+   "score": 81.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 29.77,
+   "tok_s": 28.1,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Qwen3.5-9B",
+   "name": "Qwen3.5 9B",
+   "where": "OVHcloud (без ключа)",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 42.55,
+   "tok_s": 35.9,
+   "first_try": false
+  },
+  {
+   "spec": "google::gemini-3.8-flash",
+   "name": "Gemini 3.8 Flash",
+   "where": "Google AI Studio",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 105.94,
+   "tok_s": 0.8,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::z-ai/glm-5.3",
+   "name": "GLM-5.3",
+   "where": "NVIDIA NIM",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    9,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 228.85,
+   "tok_s": 2.7,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+   "name": "Llama 3.3 70B",
+   "where": "Cloudflare Workers AI",
+   "score": 78.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 0.41,
+   "tok_s": 42.8,
+   "first_try": false
+  },
+  {
+   "spec": "kilo::poolside/laguna-s-2.1:free",
+   "name": "Poolside Laguna S 2.1",
+   "where": "Kilo / OpenRouter",
+   "score": 75.0,
+   "ru": 7,
+   "ru_scores": [
+    6,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 1.22,
+   "tok_s": 28.9,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3.5-lightning:free",
+   "name": "NVIDIA Nemotron 3.5 Lightning",
+   "where": "Kilo / OpenRouter",
+   "score": 73.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 18.78,
+   "tok_s": 73.7,
+   "first_try": true
+  },
+  {
+   "spec": "zai::glm-4.5-flash",
+   "name": "GLM-4.5 Flash",
+   "where": "Z.ai",
+   "score": 71.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 10.12,
+   "tok_s": 35.7,
+   "first_try": true
+  },
+  {
+   "spec": "zai::glm-4.7-flash",
+   "name": "GLM-4.7 Flash",
+   "where": "Z.ai",
+   "score": 67.0,
+   "ru": 7,
+   "ru_scores": [
+    8,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": false,
+   "ttft": 11.15,
+   "tok_s": 58.7,
+   "first_try": true
+  }
+ ],
+ "all": [
+  {
+   "spec": "ovh::Qwen3.8-27B",
+   "name": "Qwen3.8 27B",
+   "where": "OVHcloud (без ключа)",
+   "score": 93.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 2.6,
+   "tok_s": 107.7,
+   "first_try": true
+  },
+  {
+   "spec": "google::gemini-3.5-flash-lite",
+   "name": "Gemini 3.5 Flash Lite",
+   "where": "Google AI Studio",
+   "score": 93.0,
+   "ru": 10,
+   "ru_scores": [
+    10,
+    9,
+    10
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.27,
+   "tok_s": 27.0,
+   "first_try": true
+  },
+  {
+   "spec": "groq::qwen/qwen3.8-27b",
+   "name": "Qwen3.8 27B",
+   "where": "Groq",
+   "score": 92.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    9,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.13,
+   "tok_s": 287.0,
+   "first_try": true
+  },
+  {
+   "spec": "beam",
+   "name": "Reflection Beam 501B",
+   "where": "Ollama Cloud",
+   "score": 92.0,
+   "ru": 8,
+   "ru_scores": [
+    9,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.44,
+   "tok_s": 312.2,
+   "first_try": true
+  },
+  {
+   "spec": "google::gemini-3.7-flash",
+   "name": "Gemini 3.7 Flash",
+   "where": "Google AI Studio",
+   "score": 89.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 8.54,
+   "tok_s": 10.2,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/zai-org/glm-5.3-flash",
+   "name": "GLM-5.3 Flash",
+   "where": "Cloudflare Workers AI",
+   "score": 89.0,
+   "ru": 10,
+   "ru_scores": [
+    10,
+    10,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 10.58,
+   "tok_s": 36.3,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Mistral-Small-3.2-24B-Instruct-2506",
+   "name": "Mistral Small 3.2 24B",
+   "where": "OVHcloud (без ключа)",
+   "score": 88.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.19,
+   "tok_s": 35.6,
+   "first_try": true
+  },
+  {
+   "spec": "groq::openai/gpt-oss-120b",
+   "name": "OpenAI gpt-oss-120b",
+   "where": "Groq",
+   "score": 88.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.79,
+   "tok_s": 349.3,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/deepseek-ai/deepseek-v4-flash-0731",
+   "name": "DeepSeek V4 Flash",
+   "where": "Cloudflare Workers AI",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.84,
+   "tok_s": 65.3,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::cohere/north-mini-code:free",
+   "name": "Cohere North Mini Code",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 4.05,
+   "tok_s": 85.5,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::liquid/lfm-2.5-2.6b:free",
+   "name": "Liquid LFM2.5 2.6B",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 4.27,
+   "tok_s": 216.6,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3.5-super-vl:free",
+   "name": "NVIDIA Nemotron 3.5 Super VL",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 5.62,
+   "tok_s": 104.9,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3-super-120b-a12b:free",
+   "name": "NVIDIA Nemotron 3 Super 120B",
+   "where": "Kilo / OpenRouter",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 6.04,
+   "tok_s": 47.3,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::stepfun-ai/step-5-preview",
+   "name": "StepFun Step 5 Preview",
+   "where": "NVIDIA NIM",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 9.7,
+   "tok_s": 78.8,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::gpt-oss-120b",
+   "name": "OpenAI gpt-oss-120b",
+   "where": "OVHcloud (без ключа)",
+   "score": 85.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 9.83,
+   "tok_s": 29.3,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Qwen3.5-397B-A17B",
+   "name": "Qwen3.5 397B",
+   "where": "OVHcloud (без ключа)",
+   "score": 85.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 14.76,
+   "tok_s": 195.1,
+   "first_try": false
+  },
+  {
+   "spec": "cf::@cf/google/gemma-4-26b-a4b-it",
+   "name": "Google Gemma 4 26B A4B",
+   "where": "Cloudflare Workers AI",
+   "score": 85.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    9,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 19.3,
+   "tok_s": 53.4,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/mistralai/mistral-small-3.1-24b-instruct",
+   "name": "Mistral Small 3.1 24B",
+   "where": "Cloudflare Workers AI",
+   "score": 84.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.3,
+   "tok_s": 34.8,
+   "first_try": false
+  },
+  {
+   "spec": "groq::openai/gpt-oss-20b",
+   "name": "OpenAI gpt-oss-20b",
+   "where": "Groq",
+   "score": 84.0,
+   "ru": 6,
+   "ru_scores": [
+    7,
+    5,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 0.49,
+   "tok_s": 576.5,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/meta/llama-4-scout-17b-16e-instruct",
+   "name": "Llama 4 Scout",
+   "where": "Cloudflare Workers AI",
+   "score": 81.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 2.06,
+   "tok_s": 16.4,
+   "first_try": false
+  },
+  {
+   "spec": "kilo::dots-studio/dots-3-note-preview:free",
+   "name": "Dots3-Note Preview",
+   "where": "Kilo / OpenRouter",
+   "score": 81.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 3.06,
+   "tok_s": 67.8,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::meta/muse-glimmer-30b",
+   "name": "Meta Muse Glimmer 30B",
+   "where": "NVIDIA NIM",
+   "score": 81.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 29.77,
+   "tok_s": 28.1,
+   "first_try": true
+  },
+  {
+   "spec": "ovh::Qwen3.5-9B",
+   "name": "Qwen3.5 9B",
+   "where": "OVHcloud (без ключа)",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 42.55,
+   "tok_s": 35.9,
+   "first_try": false
+  },
+  {
+   "spec": "google::gemini-3.8-flash",
+   "name": "Gemini 3.8 Flash",
+   "where": "Google AI Studio",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    9,
+    8,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 105.94,
+   "tok_s": 0.8,
+   "first_try": true
+  },
+  {
+   "spec": "nvidia::z-ai/glm-5.3",
+   "name": "GLM-5.3",
+   "where": "NVIDIA NIM",
+   "score": 81.0,
+   "ru": 9,
+   "ru_scores": [
+    10,
+    9,
+    9
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 228.85,
+   "tok_s": 2.7,
+   "first_try": true
+  },
+  {
+   "spec": "cf::@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+   "name": "Llama 3.3 70B",
+   "where": "Cloudflare Workers AI",
+   "score": 78.0,
+   "ru": 7,
+   "ru_scores": [
+    7,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 0.41,
+   "tok_s": 42.8,
+   "first_try": false
+  },
+  {
+   "spec": "nvidia::z-ai/glm-5.3-flash",
+   "name": "GLM-5.3 Flash",
+   "where": "NVIDIA NIM",
+   "score": 77.0,
+   "ru": 8,
+   "ru_scores": [
+    8,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 132.18,
+   "tok_s": 3.5,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::poolside/laguna-s-2.1:free",
+   "name": "Poolside Laguna S 2.1",
+   "where": "Kilo / OpenRouter",
+   "score": 75.0,
+   "ru": 7,
+   "ru_scores": [
+    6,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 1.22,
+   "tok_s": 28.9,
+   "first_try": true
+  },
+  {
+   "spec": "kilo::nvidia/nemotron-3.5-lightning:free",
+   "name": "NVIDIA Nemotron 3.5 Lightning",
+   "where": "Kilo / OpenRouter",
+   "score": 73.0,
+   "ru": 6,
+   "ru_scores": [
+    6,
+    6,
+    6
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": true,
+   "ttft": 18.78,
+   "tok_s": 73.7,
+   "first_try": true
+  },
+  {
+   "spec": "zai::glm-4.5-flash",
+   "name": "GLM-4.5 Flash",
+   "where": "Z.ai",
+   "score": 71.0,
+   "ru": 8,
+   "ru_scores": [
+    7,
+    8,
+    8
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": false,
+   "format": true,
+   "ttft": 10.12,
+   "tok_s": 35.7,
+   "first_try": true
+  },
+  {
+   "spec": "zai::glm-4.7-flash",
+   "name": "GLM-4.7 Flash",
+   "where": "Z.ai",
+   "score": 67.0,
+   "ru": 7,
+   "ru_scores": [
+    8,
+    7,
+    7
+   ],
+   "code": "3/3",
+   "code_note": null,
+   "math": true,
+   "format": false,
+   "ttft": 11.15,
+   "tok_s": 58.7,
+   "first_try": true
+  }
+ ],
+ "unavailable": {
+  "kilo::nvidia/nemotron-3-ultra-550b-a55b:free": {
+   "where": "Kilo / OpenRouter",
+   "name": "NVIDIA Nemotron 3 Ultra 550B",
+   "error": "RuntimeError: {'code': 504, 'message': 'A Timeout Occurred', 'metadata': {'error_type': 'timeout'}}"
+  },
+  "kilo::nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+   "where": "Kilo / OpenRouter",
+   "name": "NVIDIA Nemotron 3 Nano Omni 30B",
+   "error": "RuntimeError: {'code': 502, 'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)', 'metadata': {'error_type': 'provider_unavailable'}}"
+  },
+  "kilo::thinkingmachines/inkling:free": {
+   "where": "Kilo / OpenRouter",
+   "name": "Thinking Machines Inkling",
+   "error": "RuntimeError: kilo HTTP 404: b'{\"error\":\"The requested model is currently unavailable. Please choose a different model.\",\"error_type\":\"unavailable_model\",\"message\":\"The requested model is currently unavailable. Please choose a diff'"
+  },
+  "kilo::thinkingmachines/inkling-small:free": {
+   "where": "Kilo / OpenRouter",
+   "name": "Thinking Machines Inkling Small",
+   "error": "RuntimeError: kilo HTTP 429: b'{\"error\":{\"message\":\"Rate limit exceeded: limit_rpd/thinkingmachines/inkling-small-20260730/e27a9a6d-1451-4be4-876e-292ffcbf1e71. Daily limit reached for thinkingmachines/inkling-small:free via Thinki'"
+  },
+  "kilo::poolside/laguna-xs-2.1:free": {
+   "where": "Kilo / OpenRouter",
+   "name": "Poolside Laguna XS 2.1",
+   "error": "RuntimeError: kilo HTTP 429: b'{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate yo'"
+  },
+  "openrouter::google/gemma-4-31b-it:free": {
+   "where": "OpenRouter",
+   "name": "Google Gemma 4 31B",
+   "error": "RuntimeError: openrouter HTTP 429: b'{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate you'"
+  },
+  "openrouter::google/gemma-4-26b-a4b-it:free": {
+   "where": "OpenRouter",
+   "name": "Google Gemma 4 26B A4B",
+   "error": "RuntimeError: openrouter HTTP 429: b'{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate'"
+  },
+  "google::gemini-2.5-flash": {
+   "where": "Google AI Studio",
+   "name": "Gemini 2.5 Flash",
+   "error": "RuntimeError: google HTTP 404: b'[{\\n  \"error\": {\\n    \"code\": 404,\\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features '"
+  },
+  "google::gemma-4-31b-it": {
+   "where": "Google AI Studio",
+   "name": "Google Gemma 4 31B",
+   "error": "RuntimeError: google HTTP 500: b'[{\\n  \"error\": {\\n    \"code\": 500,\\n    \"message\": \"Internal error encountered.\",\\n    \"status\": \"INTERNAL\"\\n  }\\n}\\n]'"
+  },
+  "google::gemini-3.1-pro-preview": {
+   "where": "Google AI Studio",
+   "name": "Gemini 3.1 Pro (preview)",
+   "error": "RuntimeError: google HTTP 429: b'[{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-'"
+  },
+  "google::gemini-4-argon": {
+   "where": "Google AI Studio",
+   "name": "Gemini 4 Argon",
+   "error": "RuntimeError: google HTTP 429: b'[{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-'"
+  },
+  "nvidia::deepseek-ai/deepseek-v4.1-flash": {
+   "where": "NVIDIA NIM",
+   "name": "DeepSeek V4.1 Flash",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "nvidia::moonshotai/kimi-k2.6": {
+   "where": "NVIDIA NIM",
+   "name": "Kimi K2.6",
+   "error": "RuntimeError: nvidia HTTP 404: b'{\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function \\'23d4f03a-b8a6-4adb-a183-7daa083a09cc\\': Not found for account \\'rh84lSrvOGxvDCgI5L6lf_IK8nCZgms8smD9dRunMCY\\'\"}'"
+  },
+  "nvidia::mistralai/mistral-large": {
+   "where": "NVIDIA NIM",
+   "name": "Mistral Large",
+   "error": "RuntimeError: nvidia HTTP 404: b'{\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function \\'767b5b9a-3f9d-4c1d-86e8-fa861988cee7\\': Not found for account \\'rh84lSrvOGxvDCgI5L6lf_IK8nCZgms8smD9dRunMCY\\'\"}'"
+  },
+  "nvidia::nvidia/nemotron-3-ultra-550b-a55b": {
+   "where": "NVIDIA NIM",
+   "name": "NVIDIA Nemotron 3 Ultra 550B",
+   "error": "RuntimeError: nvidia HTTP 404: b'{\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function id \\'948fe171-ce7a-4332-8bc0-5e14e90259f9\\' version \\'null\\': Specified function in account \\'rh84lSrvOGxvDCgI5L6lf_IK8nCZgms8smD9dRunMCY\\' is not found\"'"
+  },
+  "nvidia::google/gemma-4-31b-it": {
+   "where": "NVIDIA NIM",
+   "name": "Google Gemma 4 31B",
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "openrouter::nvidia/nemotron-3-ultra-550b-a55b:free": {
+   "where": "OpenRouter",
+   "name": "NVIDIA Nemotron 3 Ultra 550B",
+   "error": "RuntimeError: openrouter HTTP 404: b'{\"error\":{\"message\":\"Provider returned error\",\"code\":404,\"metadata\":{\"raw\":\"{\\\\\"status\\\\\":404,\\\\\"title\\\\\":\\\\\"Not Found\\\\\",\\\\\"detail\\\\\":\\\\\"Function id \\'948fe171-ce7a-4332-8bc0-5e14e90259f9\\' version \\'null\\': Spec'"
+  },
+  "openrouter::nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
+   "where": "OpenRouter",
+   "name": "NVIDIA Nemotron 3 Nano Omni 30B",
+   "error": "RuntimeError: {'code': 502, 'message': 'Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (16/16)', 'metadata': {'error_type': 'provider_unavailable'}}"
+  },
+  "openrouter::thinkingmachines/inkling:free": {
+   "where": "OpenRouter",
+   "name": "Thinking Machines Inkling",
+   "error": "RuntimeError: openrouter HTTP 403: b'{\"error\":{\"message\":\"thinkingmachines/inkling:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps\",\"code\":403,\"met'"
+  },
+  "openrouter::thinkingmachines/inkling-small:free": {
+   "where": "OpenRouter",
+   "name": "Thinking Machines Inkling Small",
+   "error": "RuntimeError: openrouter HTTP 403: b'{\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a coding agent or productivity app listed on https://openrouter.ai/apps\",\"code\":40'"
+  },
+  "openrouter::poolside/laguna-xs-2.1:free": {
+   "where": "OpenRouter",
+   "name": "Poolside Laguna XS 2.1",
+   "error": "RuntimeError: openrouter HTTP 429: b'{\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"poolside/laguna-xs-2.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate yo'"
+  },
+  "google::gemma-4-26b-a4b-it": {
+   "where": "Google AI Studio",
+   "name": "Google Gemma 4 26B A4B",
+   "error": "RuntimeError: google HTTP 500: b'[{\\n  \"error\": {\\n    \"code\": 500,\\n    \"message\": \"Internal error encountered.\",\\n    \"status\": \"INTERNAL\"\\n  }\\n}\\n]'"
+  }
+ }
+}
